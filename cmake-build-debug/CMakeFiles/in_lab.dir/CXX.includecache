@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/WS03/in-lab/CRA_Account.cpp
+iostream
+-
+cstring
+-
+CRA_Account.h
+H:/WS03/in-lab/CRA_Account.h
+CRA_Account.h
+H:/WS03/in-lab/CRA_Account.h
+
+H:/WS03/in-lab/CRA_Account.h
+cstring
+-
+iostream
+-
+
+H:/WS03/in-lab/w3_in_lab.cpp
+iostream
+-
+CRA_Account.h
+H:/WS03/in-lab/CRA_Account.h
+
