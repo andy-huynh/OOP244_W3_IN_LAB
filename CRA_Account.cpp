@@ -34,7 +34,7 @@ namespace sict{
     bool CRA_Account::isValid() const {
         bool sinTF;
 
-        if(m_sin >= MAX_SIN || m_sin <=MIN_SIN) {
+        if(m_sin >= MAX_SIN && m_sin <=MIN_SIN) {
             sinTF = false;
         }else{
             sinTF = true;
